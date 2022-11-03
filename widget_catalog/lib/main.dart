@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+import 'package:widget_catalog/views/bottom_app_bar_demo.dart';
+import 'package:widget_catalog/views/index.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.amber,
+      ),
+      //home:  MyHomePage(title: 'Flutter Demo Home Page'),
+      home:BottomAppBarDemo()
+    );
+  }
+}
