@@ -16,7 +16,6 @@ void main() {
     );
   }
 } */
-
 class AppWidget extends StatelessWidget {
 
   @override
@@ -26,9 +25,9 @@ class AppWidget extends StatelessWidget {
       builder: (context, child){
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          theme: ThemeData(
-            primarySwatch: Colors.red,
-          ),
+          theme: ThemeData(),
+          darkTheme: ThemeData(), 
+          themeMode: ThemeMode.system,
           initialRoute: '/',
           routes: {
             '/': (context) => AllReadyPage(),
