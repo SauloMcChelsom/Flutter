@@ -1,6 +1,7 @@
 import 'package:devquizes/challenge/challenge_page.dart';
+import 'package:devquizes/splash/splash_page.dart';
+import 'package:devquizes/src/views/congratulations_page.dart';
 import 'package:flutter/material.dart';
-import 'package:devquizes/home/home_page.dart';
 
 void main() {
   runApp(App());
@@ -12,8 +13,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Home Page',
-      home: ChallengePage(),
+      home: CongratulationsPage(),
     );
   }
 }
-
