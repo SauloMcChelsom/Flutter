@@ -10,5 +10,5 @@ class AppImages {
   static String get avatar => "https://avatars.githubusercontent.com/u/40011042?v=4";
   static String get mascotte => "assets/images/mascotte.png";
   static String get emoji_smile_google => "assets/images/emoji-smile-google.png";
-  
+  static String get emoji_show_google => "assets/images/emoji-show-google.png";
 }

@@ -1,6 +1,5 @@
-import 'package:devquizes/challenge/challenge_page.dart';
 import 'package:devquizes/splash/splash_page.dart';
-import 'package:devquizes/src/views/name_user_page.dart';
+import 'package:devquizes/src/views/all_ready_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +31,8 @@ class AppWidget extends StatelessWidget {
           ),
           initialRoute: '/',
           routes: {
-            '/': (context) => NameUserPage(),
+            '/': (context) => AllReadyPage(),
+            '/splash': (context) => SplashPage(),
           },
         );
       }
