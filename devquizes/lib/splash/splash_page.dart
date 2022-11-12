@@ -1,5 +1,5 @@
 import 'package:devquizes/core/core.dart';
-import 'package:devquizes/home/home_page.dart';
+import 'package:devquizes/src/views/welcome_page.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
@@ -7,7 +7,7 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     Future.delayed(Duration(seconds: 2)).then((_)=> Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context)=>HomePage())
+      MaterialPageRoute(builder: (context)=>WelcomePage())
     ));
     return Scaffold(
       body: Container(

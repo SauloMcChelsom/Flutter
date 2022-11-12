@@ -1,0 +1,148 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "currency_converter",
+            "cwd": "currency_converter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "currency_converter (profile mode)",
+            "cwd": "currency_converter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "currency_converter (release mode)",
+            "cwd": "currency_converter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "devquizes",
+            "cwd": "devquizes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "devquizes (profile mode)",
+            "cwd": "devquizes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "devquizes (release mode)",
+            "cwd": "devquizes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "gallery",
+            "cwd": "gallery",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "gallery (profile mode)",
+            "cwd": "gallery",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "gallery (release mode)",
+            "cwd": "gallery",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "nubank",
+            "cwd": "nubank",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "nubank (profile mode)",
+            "cwd": "nubank",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "nubank (release mode)",
+            "cwd": "nubank",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "ola_mundo",
+            "cwd": "ola_mundo",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ola_mundo (profile mode)",
+            "cwd": "ola_mundo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ola_mundo (release mode)",
+            "cwd": "ola_mundo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starwarswiki",
+            "cwd": "starwarswiki",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starwarswiki (profile mode)",
+            "cwd": "starwarswiki",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starwarswiki (release mode)",
+            "cwd": "starwarswiki",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "todo_list",
+            "cwd": "todo_list",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "todo_list (profile mode)",
+            "cwd": "todo_list",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "todo_list (release mode)",
+            "cwd": "todo_list",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

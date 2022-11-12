@@ -5,17 +5,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(AppWidget());
 }
-
-/*class App extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Home Page',
-      home: NameUserPage(),
-    );
-  }
-} */
 class AppWidget extends StatelessWidget {
 
   @override
@@ -30,8 +19,7 @@ class AppWidget extends StatelessWidget {
           themeMode: ThemeMode.system,
           initialRoute: '/',
           routes: {
-            '/': (context) => AllReadyPage(),
-            '/splash': (context) => SplashPage(),
+            '/': (context) => SplashPage(),
           },
         );
       }
