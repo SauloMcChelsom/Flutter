@@ -1,10 +1,18 @@
-import 'package:devquizes/splash/splash_page.dart';
-import 'package:devquizes/src/views/all_ready_page.dart';
+import 'package:devquizes/src/pages/challenge/challenge_page.dart';
+import 'package:devquizes/src/pages/congratulations_page.dart';
+import 'package:devquizes/src/pages/error_page.dart';
+import 'package:devquizes/src/pages/home/home_page.dart';
+import 'package:devquizes/src/pages/name_user_page.dart';
+import 'package:devquizes/src/pages/splash_page.dart';
+import 'package:devquizes/src/pages/all_ready_page.dart';
+import 'package:devquizes/src/pages/success_page.dart';
+import 'package:devquizes/src/pages/welcome_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(AppWidget());
 }
+
 class AppWidget extends StatelessWidget {
 
   @override
@@ -20,6 +28,14 @@ class AppWidget extends StatelessWidget {
           initialRoute: '/',
           routes: {
             '/': (context) => SplashPage(),
+            '/welcomepage': (context) => WelcomePage(),
+            '/nameuserpage': (context) => NameUserPage(),
+            '/sucesspage': (context) => SucessPage(),
+            '/errorpage': (context) => ErrorPage(),
+            '/congratulationspage': (context) => CongratulationsPage(),
+            '/allreadypage': (context) => AllReadyPage(),
+            '/homepage': (context) => HomePage(),
+            '/challengepage': (context) => ChallengePage(),
           },
         );
       }
